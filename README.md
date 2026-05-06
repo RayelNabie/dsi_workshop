@@ -1,6 +1,4 @@
-# DSI Workshop — BEM, SCSS & React
-
-Een startersproject voor de workshop over BEM, SCSS en React. De pagina en SCSS-structuur staan al klaar — jouw taak is om de stijlen te schrijven.
+# DSI Workshop
 
 ---
 
@@ -25,13 +23,42 @@ Zorg dat je het volgende geïnstalleerd hebt:
 - [Node.js](https://nodejs.org/) (versie 18 of hoger)
 - [Yarn](https://yarnpkg.com/)
 
-### Installatie
+# 📋 Installatie
+
+## Stap 1: Fork de repository
+Met een **fork** zorg je ervoor dat je een eigen kopie van het project op jouw GitHub-account krijgt. Dit is jouw persoonlijke versie waar je vrij aan kunt werken zonder anderen te beïnvloeden.
+
+-> Ga naar [github.com/RayelNabie/dsi_workshop](https://github.com/RayelNabie/dsi_workshop) en klik op de **Fork** knop (rechtsboven).
+
+## Stap 2: Clone jouw fork
+Een **clone** zorgt ervoor dat een kopie van de codebase op jouw persoonlijke computer belandt. Dit is het moment dat je de code lokaal gaat aanpassen.
+
+Vervang `JOUW-GITHUB-USERNAME` met jouw eigen GitHub gebruikersnaam:
+
+```bash
+git clone https://github.com/JOUW-GITHUB-USERNAME/dsi_workshop.git
+```
+
+## Stap 3: Map openen en dependencies installeren
+Navigeer naar de map die je net hebt gedownload:
+
+```bash
+cd dsi_workshop
+```
+
+Installeer alle benodigde packages met yarn:
 
 ```bash
 yarn install
 ```
 
-### Ontwikkelserver starten
+Dit kan even duren – yarn downloadt alle dependencies die nodig zijn om het project te laten draaien.
+
+---
+
+## Ontwikkelserver starten
+
+Nu je alles hebt geïnstalleerd, kun je de ontwikkelserver starten:
 
 ```bash
 yarn dev
